@@ -1,0 +1,32 @@
+header #tabularNavbar .nav-link {
+  padding-left: 40px !important;
+}
+
+header .phone-contact {
+  width: 200px;
+  height: 40px;
+  border-radius: 10rem;
+  border: 1px solid #b61a84;
+  color: white;
+  background-color: #b61a84;
+}
+
+header .phone-contact .badge {
+  width: 100%;
+  height: 100%;
+  font-weight: 1;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+header .social {
+  padding-left: 5px;
+}
+
+header .phone-contact:hover {
+  background-color: white;
+  -webkit-transition: none 3s;
+  transition: none 3s;
+  color: #b61a84;
+}
+/*# sourceMappingURL=main.css.map */
