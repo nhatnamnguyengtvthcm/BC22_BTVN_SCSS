@@ -1,3 +1,18 @@
+.top-background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.top-background img {
+  width: 90%;
+}
+
+header {
+  background-color: rgba(248, 246, 246, 0);
+}
+
 header #tabularNavbar .nav-link {
   padding-left: 40px !important;
 }
@@ -20,7 +35,11 @@ header .phone-contact .badge {
 }
 
 header .social {
-  padding-left: 5px;
+  padding-left: 10px;
+}
+
+header .social i {
+  padding: 5px;
 }
 
 header .phone-contact:hover {
@@ -28,5 +47,103 @@ header .phone-contact:hover {
   -webkit-transition: none 3s;
   transition: none 3s;
   color: #b61a84;
+}
+
+.apply .aplly__content .apply__left {
+  padding: 100px 0;
+}
+
+.apply .aplly__content h3 {
+  color: #b61a84;
+  font-size: 20px;
+}
+
+.apply .aplly__content h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.teacher {
+  position: relative;
+}
+
+.teacher .top-background {
+  position: static;
+}
+
+.teacher .bottom-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.teacher .teacher__content {
+  background-color: #dcd1f0;
+  padding: 200px 0;
+}
+
+.teacher .footer_top_background {
+  height: 50px;
+}
+
+.teacher .footer_top_background img {
+  width: 100%;
+  position: absolute;
+  bottom: 622px;
+}
+
+.find_course {
+  width: 80%;
+  background-image: url(/img/accent_bottom_wave_01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.find_course bac
+.find_course_left #form .form-control {
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.find_course bac
+.find_course_left #form .form_content {
+  border-radius: 1rem;
+}
+
+.find_course bac
+.find_course_left #form .form_content h1 {
+  text-align: center;
+}
+
+.find_course bac
+.find_course_left #form .form_content .form-group {
+  position: relative;
+}
+
+.find_course bac
+.find_course_left #form .form_content span {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.find_course bac
+.find_course_left #form .submit-btn {
+  padding: 10px;
+}
+
+.find_course bac
+.find_course_left #form .submit-btn .btn {
+  padding: 10px 50px;
+  border-radius: 2rem;
+}
+
+footer .footer_content {
+  background-color: #aa027e;
+}
+
+footer img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

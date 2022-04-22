@@ -1,0 +1,48 @@
+.find_course {
+    // position: relative;
+    width: 80%;
+    background-image: url(/img/accent_bottom_wave_01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bac
+    .find_course_left{
+        
+        #form {
+            .form-control{
+                border-radius: 1rem;
+                text-align: center;
+            }
+            .form_content{
+                border-radius: 1rem;
+                h1 {
+                    text-align: center;
+                }
+                .form-group {
+                    // height: 200px;
+                    position: relative;
+                }
+                span {
+                    // content: "";
+                    position: absolute;
+                    top: 10px;
+                    left:20px;
+                    
+                }   
+                    
+                
+            }
+           .submit-btn {
+               padding: 10px;
+               
+               .btn {
+                padding: 10px 50px;
+                border-radius: 2rem;
+
+               }
+           }
+        }
+        
+    }
+    
+}

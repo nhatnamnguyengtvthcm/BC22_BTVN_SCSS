@@ -1,0 +1,31 @@
+.teacher {
+   
+    position: relative;
+
+    .top-background {
+        position:static;
+    }
+    .bottom-background {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        // width: 100%;
+      
+    }
+    .teacher__content {
+        background-color: $puple-color;
+        padding: 200px 0 ;
+        // height:500px    ;
+    }
+    .footer_top_background{
+        // position: relative;
+        height: 50px;
+        img {
+            width: 100%;
+            position: absolute;
+            bottom: 622px;
+        }
+       
+
+    }
+}
