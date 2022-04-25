@@ -1,11 +1,13 @@
 .find_course {
     // position: relative;
-    width: 80%;
+    width: 100%;
+    height: auto;
     background-image: url(/img/accent_bottom_wave_01.png);
-    background-position: center;
+    // background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    bac
+    background-position-x: center;
+    
     .find_course_left{
         
         #form {

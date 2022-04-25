@@ -13,9 +13,14 @@
       
     }
     .teacher__content {
-        background-color: $puple-color;
+        background-color: $btn-color;
         padding: 200px 0 ;
         // height:500px    ;
+        .card-user-name{
+            font-weight: 800;
+            font-size: 16px;
+            color: #b61a84;
+        }
     }
     .footer_top_background{
         // position: relative;

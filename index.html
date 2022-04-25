@@ -80,15 +80,15 @@
       </nav>
     </header>
     <section class="apply container">
-      <div class="aplly__content d-flex">
-        <div class="col-xl-6 col-lg-6 apply__left">
+      <div class="aplly__content row">
+        <div class="col-xl-6 col-lg-6 apply__left col-12">
           <h3>About Us</h3>
           <h1>The language teaching experts</h1>
           <!-- <div class="phone-contact">
             <span class="badge badge-pill">APPLY NOW</span>
           </div> -->
         </div>
-        <div class="col-xl-6 col-lg-6 apply__right">
+        <div class="col-xl-6 col-lg-6 apply__right col-12 w-100">
           <img src="./img/hero_team.png" alt="" />
         </div>
       </div>
@@ -106,112 +106,83 @@
       </div>
       <div class="teacher__content w-100">
         <div class="teacher__content_card container">
-          <div class="card_list justify-content-center row">
-            <div class="card text-left col-lg-3 col-xl-3 col-6">
-              <img class="card-img-top" src="holder.js/100px180/" alt="" />
+          <div class="card_list row" id="teacher-list">
+            <!-- <div class="card col-lg-3 col-xl-3 col-6">
+              <img class="card-img-top" src="img_avatar1.png" alt="Card image">
               <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Body</p>
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
               </div>
-            </div>
-            <div class="card text-left col-lg-3 col-xl-3 col-6">
-              <img class="card-img-top" src="holder.js/100px180/" alt="" />
-              <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Body</p>
-              </div>
-            </div>
-            <div class="card text-left col-lg-3 col-xl-3 col-6">
-              <img class="card-img-top" src="holder.js/100px180/" alt="" />
-              <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Body</p>
-              </div>
-            </div>
-            <div class="card text-left col-lg-3 col-xl-3 col-6">
-              <img class="card-img-top" src="holder.js/100px180/" alt="" />
-              <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Body</p>
-              </div>
-            </div>
-            <div class="card text-left col-lg-3 col-xl-3 col-6">
-              <img class="card-img-top" src="holder.js/100px180/" alt="" />
-              <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Body</p>
-              </div>
-            </div>
-            <div class="card text-left col-lg-3 col-xl-3 col-6">
-              <img class="card-img-top" src="holder.js/100px180/" alt="" />
-              <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Body</p>
-              </div>
-            </div>
+            </div> -->
+            
             
           </div>
         </div>
       </div>
     </section>
     <section class="find_course w-100">
-      <div class="find_course__content container d-flex justify-items-center">
-        <div class="find_course_right col-xl-6 col-lg-6 col-12">
-          <img src="/img/conatct_inner.png" alt="" class="w-100" />
-        </div>
-        <div class="find_course_left col-xl-6 col-lg-6 col-12">
-          <form id="form" action="">
-            <div class="form_content card p-3">
-              <h1 class="">Find Your Course</h1>
-              <div class="form-group">
-                <div class="form_group_1 d-flex justify-content-between">
-                  <div class="name col-xl-3 col-lg-3 col-">
-                    <span class="user fa-solid fa-user"> </span>
-                    <input
-                      type="text"
-                      name=""
-                      id="txtName"
-                      class="form-control"
-                      placeholder="name"
-                      aria-describedby="helpId"
-                    />
-                  </div>
-                  <div class="name col-5">
-                    <span class="fa-solid fa-envelope">
-                      <!-- <i class="fa-solid fa-envelope"></i> -->
-                    </span>
-                    <input
-                      type="text"
-                      name=""
-                      id="txtEmail"
-                      class="form-control"
-                      placeholder="email"
-                      aria-describedby="helpId"
-                    />
+      <div class="find_course_row container">
+        <div class="find_course__content row mx-ato my-auto">
+          <div class="find_course_right col-xl-6 col-lg-6 col-sm-12 col-xs-12 col-md-12">
+            <img src="/img/conatct_inner.png" alt="" class="w-100" />
+          </div>
+          <div class="find_course_left col-xl-6 col-lg-6 col-sm-12 col-xs-12 col-md-12">
+            <form id="form" action="">
+              <div class="form_content card p-3">
+                <h1 class="">Find Your Course</h1>
+                <div class="form-group">
+                  <div class="form_group_1 d-flex justify-content-between">
+                    <div class="name col-xl-3 col-lg-3 col-">
+                      <span class="user fa-solid fa-user"> </span>
+                      <input
+                        type="text"
+                        name=""
+                        id="txtName"
+                        class="form-control"
+                        placeholder="name"
+                        aria-describedby="helpId"
+                      />
+                    </div>
+                    <div class="name col-5">
+                      <span class="fa-solid fa-envelope">
+                        <!-- <i class="fa-solid fa-envelope"></i> -->
+                      </span>
+                      <input
+                        type="text"
+                        name=""
+                        id="txtEmail"
+                        class="form-control"
+                        placeholder="email"
+                        aria-describedby="helpId"
+                      />
+                    </div>
                   </div>
                 </div>
+                <div class="form-group">
+                  <span class="fa-solid fa-graduation-cap"></span>
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="form-control"
+                    placeholder="English"
+                    aria-describedby="helpId"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group submit-btn">
+                  <input type="submit" value="Send" class="btn btn-danger" />
+                </div>
               </div>
-              <div class="form-group">
-                <span class="fa-solid fa-graduation-cap"></span>
-                <input
-                  type="text"
-                  name=""
-                  id=""
-                  class="form-control"
-                  placeholder="English"
-                  aria-describedby="helpId"
-                />
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-              </div>
-              <div class="form-group submit-btn">
-                <input type="submit" value="Send" class="btn btn-danger" />
-              </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
+
+      
     </section>
     <footer>
 
@@ -262,5 +233,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/services.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
